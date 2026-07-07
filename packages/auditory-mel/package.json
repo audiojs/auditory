@@ -1,0 +1,30 @@
+{
+  "name": "@audio/auditory-mel",
+  "version": "1.0.0",
+  "description": "Mel-frequency triangular filter bank",
+  "type": "module",
+  "sideEffects": false,
+  "main": "mel-bank.js",
+  "exports": {
+    ".": "./mel-bank.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "mel-bank.js"
+  ],
+  "keywords": [
+    "audio",
+    "dsp",
+    "auditory",
+    "filterbank",
+    "mel"
+  ],
+  "license": "MIT",
+  "author": "Dmitry Iv. <dfcreative@gmail.com>",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

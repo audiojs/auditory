@@ -1,0 +1,30 @@
+{
+  "name": "@audio/auditory-gammatone",
+  "version": "1.0.0",
+  "description": "Gammatone auditory filter (cochlear model)",
+  "type": "module",
+  "sideEffects": false,
+  "main": "gammatone.js",
+  "exports": {
+    ".": "./gammatone.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "gammatone.js"
+  ],
+  "keywords": [
+    "audio",
+    "dsp",
+    "auditory",
+    "filterbank",
+    "gammatone"
+  ],
+  "license": "MIT",
+  "author": "Dmitry Iv. <dfcreative@gmail.com>",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

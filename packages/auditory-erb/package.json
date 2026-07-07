@@ -1,0 +1,30 @@
+{
+  "name": "@audio/auditory-erb",
+  "version": "1.0.0",
+  "description": "ERB-spaced filter bank using gammatone filters",
+  "type": "module",
+  "sideEffects": false,
+  "main": "erb-bank.js",
+  "exports": {
+    ".": "./erb-bank.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "erb-bank.js"
+  ],
+  "keywords": [
+    "audio",
+    "dsp",
+    "auditory",
+    "filterbank",
+    "erb"
+  ],
+  "license": "MIT",
+  "author": "Dmitry Iv. <dfcreative@gmail.com>",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

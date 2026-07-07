@@ -1,0 +1,33 @@
+{
+  "name": "@audio/auditory-bark",
+  "version": "1.0.0",
+  "description": "Bark-scale filter bank",
+  "type": "module",
+  "sideEffects": false,
+  "main": "bark-bank.js",
+  "exports": {
+    ".": "./bark-bank.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "bark-bank.js"
+  ],
+  "dependencies": {
+    "digital-filter": "^2.0.0"
+  },
+  "keywords": [
+    "audio",
+    "dsp",
+    "auditory",
+    "filterbank",
+    "bark"
+  ],
+  "license": "MIT",
+  "author": "Dmitry Iv. <dfcreative@gmail.com>",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

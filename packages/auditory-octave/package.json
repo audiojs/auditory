@@ -1,0 +1,33 @@
+{
+  "name": "@audio/auditory-octave",
+  "version": "1.0.0",
+  "description": "IEC 61260 fractional-octave filter bank",
+  "type": "module",
+  "sideEffects": false,
+  "main": "octave-bank.js",
+  "exports": {
+    ".": "./octave-bank.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "octave-bank.js"
+  ],
+  "dependencies": {
+    "digital-filter": "^2.0.0"
+  },
+  "keywords": [
+    "audio",
+    "dsp",
+    "auditory",
+    "filterbank",
+    "octave"
+  ],
+  "license": "MIT",
+  "author": "Dmitry Iv. <dfcreative@gmail.com>",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

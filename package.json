@@ -1,0 +1,57 @@
+{
+  "name": "@audio/auditory",
+  "version": "1.0.0",
+  "type": "module",
+  "sideEffects": false,
+  "description": "Auditory filterbanks — umbrella for @audio/auditory-* atoms (bark, ERB, mel, gammatone, octave)",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "node test.js",
+    "test:all": "npm test --workspaces --if-present && npm test",
+    "publish:all": "npm publish --workspaces && npm publish"
+  },
+  "dependencies": {
+    "@audio/auditory-bark": "^1.0.0",
+    "@audio/auditory-erb": "^1.0.0",
+    "@audio/auditory-mel": "^1.0.0",
+    "@audio/auditory-gammatone": "^1.0.0",
+    "@audio/auditory-octave": "^1.0.0"
+  },
+  "devDependencies": {
+    "tst": "^9.4.0"
+  },
+  "keywords": [
+    "audio",
+    "dsp",
+    "auditory",
+    "filterbank",
+    "bark",
+    "erb",
+    "mel",
+    "gammatone",
+    "octave-band"
+  ],
+  "license": "MIT",
+  "author": "Dmitry Iv. <dfcreative@gmail.com>",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
