@@ -10,4 +10,4 @@
 | `@audio/auditory-gammatone` | Gammatone filterbank |
 | `@audio/auditory-octave` | IEC 61260 octave/fractional-octave bank |
 
-Extracted from [audio-filter](https://github.com/audiojs/audio-filter).
+Extracted from [filter](https://github.com/audiojs/filter).
