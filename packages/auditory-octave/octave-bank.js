@@ -3,7 +3,7 @@
  * Generates bandpass filters at standard ISO center frequencies.
  */
 
-import { bandpass2 } from 'digital-filter/iir/biquad.js'
+import { bandpass } from '@audio/biquad'
 
 let { pow, log, ceil, floor, round } = Math
 
@@ -39,7 +39,7 @@ export default function octaveBank (fraction, fs, opts) {
 
 		bands.push({
 			fc: round(fc * 10) / 10,
-			coefs: bandpass2(fc, Q, fs)
+			coefs: bandpass(fc, Q, fs)
 		})
 	}
 

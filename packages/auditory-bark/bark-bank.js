@@ -6,7 +6,7 @@
  * rate and critical bandwidth as a function of frequency", JASA 68 (1980).
  */
 
-import { bandpass2 } from 'digital-filter/iir/biquad.js'
+import { bandpass } from '@audio/biquad'
 
 // Standard 24 Bark critical bands (Zwicker)
 let BARK_EDGES = [
@@ -44,7 +44,7 @@ export default function barkBank (fs, opts) {
 			fLow: Math.round(fLow),
 			fHigh: Math.round(fHigh),
 			fc: Math.round(fc * 10) / 10,
-			coefs: bandpass2(fc, Q, fs)
+			coefs: bandpass(fc, Q, fs)
 		})
 	}
 

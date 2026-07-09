@@ -1,6 +1,6 @@
 {
   "name": "@audio/auditory-octave",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "IEC 61260 fractional-octave filter bank",
   "type": "module",
   "sideEffects": false,
@@ -13,7 +13,7 @@
     "octave-bank.js"
   ],
   "dependencies": {
-    "digital-filter": "^2.0.0"
+    "@audio/biquad": "^1.1.0"
   },
   "keywords": [
     "audio",
