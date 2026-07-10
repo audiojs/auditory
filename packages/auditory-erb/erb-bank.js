@@ -1,7 +1,8 @@
 /**
- * ERB-spaced filter bank using gammatone filters.
+ * ERB-scale band centers and bandwidths — no filtering, just the scale points.
  * Bands spaced according to the Equivalent Rectangular Bandwidth scale,
- * matching human auditory frequency resolution.
+ * matching human auditory frequency resolution. Pair with @audio/auditory-gammatone
+ * to actually filter each band.
  *
  * Reference: Glasberg & Moore, "Derivation of auditory filter shapes
  * from notched-noise data", Hearing Research 47 (1990).

@@ -1,7 +1,7 @@
 {
   "name": "@audio/auditory-erb",
   "version": "1.0.0",
-  "description": "ERB-spaced filter bank using gammatone filters",
+  "description": "ERB-scale band centers and bandwidths (Glasberg & Moore) — pair with @audio/auditory-gammatone for actual filtering",
   "type": "module",
   "sideEffects": false,
   "main": "erb-bank.js",
