@@ -1,6 +1,6 @@
 {
   "name": "@audio/auditory-erb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ERB-scale band centers and bandwidths (Glasberg & Moore) — pair with @audio/auditory-gammatone for actual filtering",
   "type": "module",
   "sideEffects": false,

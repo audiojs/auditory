@@ -1,6 +1,6 @@
 {
   "name": "@audio/auditory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "sideEffects": false,
   "description": "Auditory filterbanks — umbrella for @audio/auditory-* atoms (bark, ERB, mel, gammatone, octave)",
