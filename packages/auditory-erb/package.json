@@ -1,16 +1,18 @@
 {
   "name": "@audio/auditory-erb",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ERB-scale band centers and bandwidths (Glasberg & Moore) — pair with @audio/auditory-gammatone for actual filtering",
   "type": "module",
   "sideEffects": false,
   "main": "erb-bank.js",
+  "types": "./erb-bank.d.ts",
   "exports": {
     ".": "./erb-bank.js",
     "./package.json": "./package.json"
   },
   "files": [
-    "erb-bank.js"
+    "erb-bank.js",
+    "erb-bank.d.ts"
   ],
   "keywords": [
     "audio",
@@ -31,5 +33,6 @@
     "type": "git",
     "url": "git+https://github.com/audiojs/auditory.git",
     "directory": "packages/auditory-erb"
-  }
+  },
+  "funding": "https://github.com/sponsors/audiojs"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@audio/auditory",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "sideEffects": false,
   "description": "Auditory filterbanks — umbrella for @audio/auditory-* atoms (bark, ERB, mel, gammatone, octave)",
@@ -57,5 +57,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/audiojs/auditory.git"
-  }
+  },
+  "funding": "https://github.com/sponsors/audiojs"
 }

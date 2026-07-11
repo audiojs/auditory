@@ -1,16 +1,18 @@
 {
   "name": "@audio/auditory-mel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mel-frequency triangular filter bank",
   "type": "module",
   "sideEffects": false,
   "main": "mel-bank.js",
+  "types": "./mel-bank.d.ts",
   "exports": {
     ".": "./mel-bank.js",
     "./package.json": "./package.json"
   },
   "files": [
-    "mel-bank.js"
+    "mel-bank.js",
+    "mel-bank.d.ts"
   ],
   "keywords": [
     "audio",
@@ -31,5 +33,6 @@
     "type": "git",
     "url": "git+https://github.com/audiojs/auditory.git",
     "directory": "packages/auditory-mel"
-  }
+  },
+  "funding": "https://github.com/sponsors/audiojs"
 }

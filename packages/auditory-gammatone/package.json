@@ -1,16 +1,18 @@
 {
   "name": "@audio/auditory-gammatone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gammatone auditory filter (cochlear model)",
   "type": "module",
   "sideEffects": false,
   "main": "gammatone.js",
+  "types": "./gammatone.d.ts",
   "exports": {
     ".": "./gammatone.js",
     "./package.json": "./package.json"
   },
   "files": [
-    "gammatone.js"
+    "gammatone.js",
+    "gammatone.d.ts"
   ],
   "keywords": [
     "audio",
@@ -31,5 +33,6 @@
     "type": "git",
     "url": "git+https://github.com/audiojs/auditory.git",
     "directory": "packages/auditory-gammatone"
-  }
+  },
+  "funding": "https://github.com/sponsors/audiojs"
 }

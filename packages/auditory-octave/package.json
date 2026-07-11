@@ -1,16 +1,18 @@
 {
   "name": "@audio/auditory-octave",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "IEC 61260 fractional-octave filter bank",
   "type": "module",
   "sideEffects": false,
   "main": "octave-bank.js",
+  "types": "./octave-bank.d.ts",
   "exports": {
     ".": "./octave-bank.js",
     "./package.json": "./package.json"
   },
   "files": [
-    "octave-bank.js"
+    "octave-bank.js",
+    "octave-bank.d.ts"
   ],
   "dependencies": {
     "@audio/biquad": "^1.1.0"
@@ -34,5 +36,6 @@
     "type": "git",
     "url": "git+https://github.com/audiojs/auditory.git",
     "directory": "packages/auditory-octave"
-  }
+  },
+  "funding": "https://github.com/sponsors/audiojs"
 }
